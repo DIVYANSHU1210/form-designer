@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    position: sticky;
+    top: 0px; 
+}
+
+.content{
+    display: flex;
+    min-height: 93vh;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 20;
+    background-color: rgb(233, 233, 233);
+}
+
+.sidebarBtn{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.form-container{
+    flex: 80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(208, 208, 208);
+}
+
+.form-items{
+    background-color: white;
+    width: 50vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(136, 120, 120, 0.782);
+    border-radius: 5px;
+    margin-block: 1rem;
+}
+
+.form-item{
+    width: 80%;
+    /* border: black solid; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-block: 10px;
+
+}
+
+.form-item-label-container{
+    display: flex;
+    justify-content: space-between;
+    /* margin-block: 10px; */
+}
+
+button{
+    padding: .2rem;
+}
+
+.form-item-deleteBtn{
+    border: none;
+    background-color: white;
+}
+
+.form-item-element{
+    padding: .5rem;
+}
+
+
+.sidebar-heading{
+    padding-left: .5rem;
+    border-bottom: 1px solid rgb(177, 175, 175);
+    border-top: 1px solid rgb(177, 175, 175);
+    padding-block: .5rem;
+}
+
+
+.dragging{
+    background-color: rgb(160, 160, 161);
+}
+
+.dragOver{
+    border-top: rgb(12, 47, 246) solid 3px;
+    transition: all .1s linear;
+}
