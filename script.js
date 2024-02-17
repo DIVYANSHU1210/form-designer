@@ -100,7 +100,7 @@ const handleAddElement = (component)=>{
     formItem.addEventListener("dragstart", (e)=>{
         draggedItem = e.target;
         e.target.classList.add("dragging");
-        console.log("drag started with", draggedItem);
+        // console.log("drag started with", draggedItem);
     })
 
     formItem.addEventListener("dragend", (e)=>{
@@ -111,7 +111,7 @@ const handleAddElement = (component)=>{
         if(e.target.tagName === "LI"){
             e.target.classList.add("dragOver");
         }   
-        console.log("elemen dragged over");
+        // console.log("elemen dragged over");
     })
 
     formItem.addEventListener("dragleave", (e)=>{
